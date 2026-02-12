@@ -1,0 +1,16 @@
+{
+  "name": "itc-bot",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "croner": "^10.0.1",
+    "telegraf": "^4.16.3"
+  }
+}
